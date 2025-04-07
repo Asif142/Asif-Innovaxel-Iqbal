@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 
 
-// Connect to MongoDB
+// Connect mongoose connection to MongoDB
 mongoose.connect('mongodb://localhost/url-shortener', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // URL Schema
