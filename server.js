@@ -65,7 +65,7 @@ app.get('/shorten/:shortCode', async (req, res) => {
             return res.status(404).json({ error: 'Short URL not found' });
         }
 
-        // Increment access count
+        // Increment access count.
         urlEntry.accessCount++;
         urlEntry.updatedAt = Date.now();
         await urlEntry.save();
