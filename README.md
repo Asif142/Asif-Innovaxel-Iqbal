@@ -9,9 +9,9 @@ You can do following actions:
 
 ## Table of Contents
 Installation:
-#Connecting to MongoDB.
+# Connecting to MongoDB.
 You need to start the mongo server by running the  'mongod' command in the terminal and after that start the mongoDB compass desktop appliction (before these commands consider downloading the mongoDB in your machine).
-#Connecting to Node.js server:
+# Connecting to Node.js server:
 In the file directory of the code that you have to open in the editor, you need to run the following command in the terminal in order to connect with the node.js server the command is'node server.js' 
 You should see a message in the terminal indicating that the server is running. like  (Server is running on http://localhost:3000).
 ** Now both servers are on and you can test the code on Postman application from google.**
