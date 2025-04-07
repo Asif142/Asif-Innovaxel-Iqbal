@@ -54,7 +54,7 @@ app.post('/shorten', async (req, res) => {
     }
 });
 
-// Retrieve Original URL
+// Retrieve Original URL.
 
 app.get('/shorten/:shortCode', async (req, res) => {
     const { shortCode } = req.params;
