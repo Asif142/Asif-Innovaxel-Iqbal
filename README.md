@@ -72,7 +72,7 @@ Check the Response: You should receive a response with a status code of 200 OK a
     "createdAt": "2021-09-01T12:00:00Z",
     "updatedAt": "2021-09-01T12:00:00Z"
 }
-## Now Update Short URL
+## Now Update URL ##
 Create a New Request:
 
 Open a new tab in Postman.
