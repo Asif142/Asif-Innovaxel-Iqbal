@@ -2,7 +2,7 @@
 A simple RESTful API that allows users to shorten long URLs.
 You will be able to shorten a long URL using the code.
 You can do following actions:
-1.write the long URL then you will get the short URL.
+1.write the long URL then you can get the short URL.
 2.You can update the existing URL.
 3.You can delete the URL.
 4.You can get the long URL by writing the short URL etc.
