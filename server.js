@@ -33,7 +33,7 @@ app.listen(PORT, () => {
 });
 
 
-//IMPLEMENTING API ENDPOINT
+//IMPLEMENTING API ENDPOINT.
 
 //Creating short URL
 
