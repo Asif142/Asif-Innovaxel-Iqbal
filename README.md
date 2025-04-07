@@ -1,6 +1,6 @@
 # Asif-Innovaxel-Iqbal
 A simple RESTful API that allows users to shorten long URLs.
-# Tech Stach:
+# Tech Stack:
 Language : JavaScript, Node.js with Express.js
 Database : MongoDB
 You will be able to shorten a long URL using the code.
