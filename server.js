@@ -144,4 +144,3 @@ app.get('/shorten/stats/:shortCode', async (req, res) => {
     }
 });
 
-// Good to Go.
