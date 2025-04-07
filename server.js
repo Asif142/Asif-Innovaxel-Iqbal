@@ -121,7 +121,7 @@ app.delete('/shorten/:shortCode', async (req, res) => {
     }
 });
 
-//  Get URL Statistics
+//  Route to Get URL Statistics
 app.get('/shorten/stats/:shortCode', async (req, res) => {
     const { shortCode } = req.params;
 
