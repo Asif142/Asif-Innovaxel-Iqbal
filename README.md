@@ -21,7 +21,9 @@ You should see a message in the terminal indicating that the server is running. 
 # How to use postman application: here is the step by step guide:
 
 ***.Go to google chrome and search for Postman application and after that install the postman agent for your desktop to get engage with the appliction.***
-##2.Create Short URL##
+
+
+## 2.Create Short URL ##
 Create a New Request:
 
 Click on the + button to open a new tab in the postman application.
