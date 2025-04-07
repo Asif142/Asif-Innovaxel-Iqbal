@@ -7,7 +7,7 @@ const shortid = require('shortid');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+// Here is the Middleware
 app.use(bodyParser.json());
 
 
