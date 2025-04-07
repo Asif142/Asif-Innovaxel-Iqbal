@@ -27,7 +27,7 @@ const urlSchema = new mongoose.Schema({
 
 const Url = mongoose.model('Url', urlSchema);
 
-// Start the server
+// Here Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
