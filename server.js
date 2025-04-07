@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 // Connect mongoose connection to MongoDB
 mongoose.connect('mongodb://localhost/url-shortener', { useNewUrlParser: true, useUnifiedTopology: true });
 
-// URL Schema
+// URL Model Schema
 const urlSchema = new mongoose.Schema({
     url: { type: String, required: true },
     shortCode: { type: String, unique: true },
