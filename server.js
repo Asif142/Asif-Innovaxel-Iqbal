@@ -86,6 +86,7 @@ app.put('/shorten/:shortCode', async (req, res) => {
         return res.status(400).json({ error: 'URL is required' });
     }
 
+        //redirect functionality for short links
     try {
         const urlEntry = await Url.findOneAndUpdate(
             { shortCode },
