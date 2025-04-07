@@ -81,7 +81,7 @@ app.get('/shorten/:shortCode', async (req, res) => {
 app.put('/shorten/:shortCode', async (req, res) => {
     const { shortCode } = req.params;
     const { url } = req.body;
-
+    // Add validation point
     if (!url) {
         return res.status(400).json({ error: 'URL is required' });
     }
