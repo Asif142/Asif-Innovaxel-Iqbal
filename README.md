@@ -94,7 +94,7 @@ Send the Request: Click the Send button.
 
 Check the Response: You should receive a response with a status code of 200 OK and a JSON object containing the updated URL.
 
-## Now to  Delete Short URL
+## Now to  Delete Short URL ##
 Create a New Request:
 
 Open a new tab in Postman.
